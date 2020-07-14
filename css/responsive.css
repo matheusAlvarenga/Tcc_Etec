@@ -1,0 +1,46 @@
+
+/*Hamburguer*/
+@media only screen and (max-width: 992px){
+	#menu_nml{
+		display: none;
+	}
+	#menu_hmb{
+		display: block;
+	}
+}
+
+/* camisas */
+@media only screen and (max-width: 1551px){
+	.last-prod{
+		display: none;
+	}
+	.ams-prod ul li{
+		padding-left: 2%;
+	}
+}
+@media only screen and (max-width: 1382px){
+	.ams-prod ul li{
+		padding-left: 10px;
+	}
+}
+@media only screen and (max-width: 1297px){
+	.quinto-prod{
+		display: none;
+	}
+	.menu_baixo li a{
+		font-size: 10pt;
+	}
+}
+@media only screen and (max-width: 768px){
+	#corpo{
+		padding-top: 50px;
+	}
+	.logo_baixo{
+		padding-top: 20px;
+	}
+
+}
+
+
+
+

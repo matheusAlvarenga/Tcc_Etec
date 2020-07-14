@@ -1,0 +1,281 @@
+/* HEADER/MENU_CIMA */
+.menuu{
+	background-color: #3a0e0e !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+.menu_cima a{
+	color: white;
+}
+
+/* HEADER/LOGO */
+.logo{
+	margin-top: 10px; 
+	position: absolute;
+	left: 50%;
+	margin-left: -112px; 
+	padding-bottom: 5px;
+}
+
+.logo a{
+	margin-top: -14px;
+}
+/* HEADER HMB / CABECA */
+#menu_hmb{
+	display: none;
+}
+
+.hmb_cabeca{
+	height: 50px;
+}
+
+.hmb_image{
+	margin-top: 8px;
+	height: 30px;
+	cursor: pointer;
+}
+
+/* HEADER HMB / ABERTO */
+
+#hmb_aberto{
+	z-index: 99;
+	margin: 0 0 0 0;
+	height: 110%;
+	width: 50%;
+	position: fixed;
+	background-color: lightgrey;
+}
+
+.hmb_aberto_logo{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+.hmb_aberto_logo img{
+	width: 175px;
+	height: 21px;
+}
+
+/* HEADER HMB / ABERTO / UM */
+
+.hmb_aberto_menu_um ul li{
+	cursor: pointer;
+	padding: 3px 0 3px 0;
+	list-style: none;
+}
+.hmb_aberto_menu_um ul li a{
+	text-decoration: none;
+	color: black;
+	padding-left: 25px;
+	font-size: 15px;
+}
+.hmb_aberto_menu_um ul li:hover{
+	background-color: grey;
+}
+.hmb_aberto_menu_um ul li:hover a{
+	color: white;
+}
+.hmb_aberto_menu_um ul{
+	padding-left: 0 !important; 
+}
+.hmb_aberto_menu_um{
+	margin-top: 15px;
+	width: 100%;
+}
+
+/* HEADER HMB / ABERTO / DOIS */
+
+.hmb_aberto_menu_dois ul li{
+	cursor: pointer;
+	padding: 3px 0 3px 0;
+	list-style: none;
+}
+.hmb_aberto_menu_dois ul li a{
+	text-decoration: none;
+	color: black;
+	padding-left: 25px;
+	font-size: 15px;
+}
+.hmb_aberto_menu_dois ul li:hover{
+	background-color: grey;
+}
+.hmb_aberto_menu_dois ul li:hover a{
+	color: white;
+}
+.hmb_aberto_menu_dois ul{
+	padding-left: 0 !important; 
+}
+.hmb_aberto_menu_dois{
+	margin-top: 15px;
+	width: 100%;
+}
+
+/* HEADER HMB / ABERTO / TRES */
+
+.hmb_aberto_menu_tres ul li{
+	cursor: pointer;
+	padding: 3px 0 3px 0;
+	list-style: none;
+}
+.hmb_aberto_menu_tres ul li a{
+	text-decoration: none;
+	color: black;
+	padding-left: 25px;
+	font-size: 15px;
+}
+.hmb_aberto_menu_tres ul li:hover{
+	background-color: grey;
+}
+.hmb_aberto_menu_tres ul li:hover a{
+	color: white;
+}
+.hmb_aberto_menu_tres ul{
+	padding-left: 0 !important; 
+}
+.hmb_aberto_menu_tres{
+	margin-top: 15px;
+	width: 100%;
+}
+
+
+
+
+/* HEADER HMB / ANIMATION */
+
+@keyframes menu_abrir{
+	from{
+		left: -100%;
+	}
+	to{
+		left: 0%;
+	}
+}
+@keyframes menu_fechar{
+	from{
+		left: 0%;
+	}
+	to{
+		left: -100%;
+	}
+}
+
+
+/* Footer */
+.rodape{
+	background: black;
+	position:absolute;
+    width:100%;
+    margin-top: -8px;
+    padding: 25px 0px;
+    color: white;
+    font-size: 20px; 
+}
+
+p{
+	font-size: 15px;
+}
+.rodape ul li a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	padding-left: 13px/*memo porra*/;
+}
+
+.rodape li{
+	list-style: none; 
+}
+
+.borda-rede-footer{
+	border-right: 1px solid #A9A9A9;
+}
+
+.rodape ul li a:hover{
+	color: #A9A9A9;
+}
+
+.redes-sociais{
+	margin-left: 5px;
+	margin-top: 10px; 
+}
+
+.redes-sociais img{
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+}
+
+.footer-fixo{
+	position: absolute;
+	bottom: 0;
+}
+
+/*FORMULARIOS LOGIN E CADASTRO*/
+
+.form-cad{
+	margin-top: 8px;
+}
+
+.form-cad form{
+	padding: 80px 40px 60px 40px;
+	border-radius: 35px;
+	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.75);
+
+
+}
+
+.form-cad form{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.form-cad form p{
+	text-align: center;
+}
+
+.primeiro-input{
+	margin-top: 54px;
+}
+
+.ultimo-input{
+	margin-bottom: 60px;
+}
+
+.form-cad{
+	margin-bottom: 100px;
+}
+
+.form-cad form h3, h4{
+	text-align: center;
+}
+
+.img-form{
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -45px;
+}
+
+.btn{
+	background-color: #3a0e0e !important;
+	border: 2px solid #2b0909 !important;
+}
+
+/* HOME ADMIN */
+
+.adm_home_corpo{
+	margin-bottom: 50px;
+}
+
+.adm_home_parte{
+	text-align: center;
+	margin-bottom: 53px;
+}
+
+.adm_home_parte img{
+	margin-top: 25px;
+}
